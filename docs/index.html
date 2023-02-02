@@ -20,6 +20,25 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
 </style>
 
 
@@ -106,6 +125,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#four-fun-facts-about-me" id="toc-four-fun-facts-about-me" class="nav-link" data-scroll-target="#four-fun-facts-about-me">Four fun facts about me</a></li>
   <li><a href="#the-majesty-of-wildlife" id="toc-the-majesty-of-wildlife" class="nav-link" data-scroll-target="#the-majesty-of-wildlife">The Majesty of Wildlife</a></li>
+  <li><a href="#papers-with-my-students" id="toc-papers-with-my-students" class="nav-link" data-scroll-target="#papers-with-my-students">Papers with my students</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -140,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 <li>I love to cook and eat good food, when I have time. These days it is mostly on the weekends, when I get to share with my parents. I love to try new recipes, these days mostly from Korean or any Asian cuisine, Mexican, or Italian cuisines.</li>
 <li>I have one kid (senior in college! Yikes) and one puppy (turns 12 in January).</li>
 <li>I have done fieldwork in Hawaii, the Caribbean, North America, Central America, Southern Africa, Papua New Guinea, East Asia (Japan), and Australia. Still on my bucket list is Madagascar.</li>
-<li>I am involved with the Comparative Phylogenetics Methods in R community (here is a listerv)<a href="https://stat.ethz.ch/mailman/listinfo/r-sig-phylo">R-sig-phylo</a>, and have contributed to the <a href="https://kingaa.github.io/ouch/">OUCH package in R</a>. We are folks interested in learning by comparing species, analyzing data across phylogenetic trees.</li>
+<li>I am involved with the Comparative Phylogenetics Methods in R community (here is a listerv)<a href="https://stat.ethz.ch/mailman/listinfo/r-sig-phylo">R-sig-phylo</a>, and have contributed to the <a href="https://kingaa.github.io/ouch/">OUCH package in R</a> <span class="citation" data-cites="Butler:2004 King:2009">(<a href="#ref-Butler:2004" role="doc-biblioref">Butler and King 2004</a>; <a href="#ref-King:2009" role="doc-biblioref">King and Butler 2009</a>)</span>. We are folks interested in learning by comparing species, analyzing data across phylogenetic trees.</li>
 </ol>
 </section>
 <section id="the-majesty-of-wildlife" class="level2">
@@ -149,13 +169,31 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://www.nhm.ac.uk/wpy/gallery">Wildlife Photographer of the Year</a></li>
 </ul>
+</section>
+<section id="papers-with-my-students" class="level2">
+<h2 class="anchored" data-anchor-id="papers-with-my-students">Papers with my students</h2>
+<p>I love to do research with my students. Here are a couple of papers that resulted from massive effort that Iʻm particularly proud of. A phylogeny of the enigmatic Asterophryinae frogs of New Guinea, a hyperdiverse group with over 350 named species <span class="citation" data-cites="Hill:2022">(<a href="#ref-Hill:2022" role="doc-biblioref">Hill et al. 2022</a>)</span>, and the accompanying data paper <span class="citation" data-cites="Hill:2022a">(<a href="#ref-Hill:2022a" role="doc-biblioref">Hill et al. submitted for publication</a>)</span>.</p>
 <p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
 
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
+<div id="ref-Butler:2004" class="csl-entry" role="doc-biblioentry">
+Butler, M. A., and A. A. King. 2004. Phylogenetic comparative analysis: A modeling approach for adaptive evolution. AMERICAN NATURALIST 164:683–695.
+</div>
+<div id="ref-Hill:2022" class="csl-entry" role="doc-biblioentry">
+Hill, E. C., C. J. Fraser, D. F. Gao, M. J. Jarman, E. R. Henry, B. Iova, A. Allison, and M. A. Butler. 2022. <a href="https://doi.org/10.1016/j.ympev.2022.107618">Resolving the deep phylogeny: Implications for early adaptive radiation, cryptic, and present-day ecological diversity of papuan microhylid frogs</a>. <span>Molecular Phylogenetics and Evolution</span> 177:107618.
+</div>
+<div id="ref-Hill:2022a" class="csl-entry" role="doc-biblioentry">
+Hill, E. C., M. J. Jarman, C. J. Fraser, D. F. Gao, E. R. Henry, B. Iova, and A. Allison. submitted for publication. Molecular and phylogenetic datasets for the asterophryinae frogs of new guinea with additional data on lifestyle, geography, and elevation. Data in Brief.
+</div>
+<div id="ref-King:2009" class="csl-entry" role="doc-biblioentry">
+King, A. A., and M. A. Butler. 2009. <a href="http://tsuga.biology.lsa.umich.edu/ouch/">Ouch: Ornstein-uhlenbeck models for phylogenetic comparative hypotheses (r package)</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

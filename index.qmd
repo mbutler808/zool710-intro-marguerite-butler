@@ -1,5 +1,7 @@
 ---
 title: "zool710-intro-marguerite-butler"
+bibliography: ButlerPapers.bib
+csl: evolution.csl
 ---
 
 This is the repository for Marguerite Butler in Zool 710.
@@ -13,12 +15,16 @@ Hello! I'm a Professor of Life Sciences at UH Manoa and a faculty member in the 
 1. I love to cook and eat good food, when I have time. These days it is mostly on the weekends, when I get to share with my parents. I love to try new recipes, these days mostly from Korean or any Asian cuisine, Mexican, or Italian cuisines.
 2. I have one kid (senior in college! Yikes) and one puppy (turns 12 in January).
 3. I have done fieldwork in Hawaii, the Caribbean, North America, Central America, Southern Africa, Papua New Guinea, East Asia (Japan), and Australia. Still on my bucket list is Madagascar.
-4. I am involved with the Comparative Phylogenetics Methods in R community (here is a listerv)[R-sig-phylo](https://stat.ethz.ch/mailman/listinfo/r-sig-phylo), and have contributed to the [OUCH package in R](https://kingaa.github.io/ouch/). We are folks interested in learning by comparing species, analyzing data across phylogenetic trees.
+4. I am involved with the Comparative Phylogenetics Methods in R community (here is a listerv)[R-sig-phylo](https://stat.ethz.ch/mailman/listinfo/r-sig-phylo), and have contributed to the [OUCH package in R](https://kingaa.github.io/ouch/) [@Butler:2004; @King:2009]. We are folks interested in learning by comparing species, analyzing data across phylogenetic trees.
 
 ## The Majesty of Wildlife
 
 There is so much bad news these days. This year I wanted to see beauty. This is the stunning photo gallery of Wildlife Photographer of the Year competition from the Natural History Museum
 
 - [Wildlife Photographer of the Year](https://www.nhm.ac.uk/wpy/gallery)
+
+## Papers with my students
+
+I love to do research with my students. Here are a couple of papers that resulted from massive effort that Iʻm particularly proud of. A phylogeny of the enigmatic Asterophryinae frogs of New Guinea, a hyperdiverse group with over 350 named species [@Hill:2022], and the accompanying data paper [@Hill:2022a].
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
